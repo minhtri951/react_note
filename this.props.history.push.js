@@ -22,6 +22,11 @@ class Home extends Component {
         window.location.assign('http://www.example.com')
         window.location.href = 'http://www.example.com'
         document.location.href = '/path'
+        
+        // 2 below is equal
+        this.props.history.push("/login")
+        window.location.href = '/path'
+        
 
 
     }
