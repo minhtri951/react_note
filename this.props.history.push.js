@@ -16,6 +16,13 @@ class Home extends Component {
             this.props.history.push("/login")
 
         }, 1000);
+        // another
+        window.location.href = "http://stackoverflow.com";
+        window.location.replace('http://www.example.com')
+        window.location.assign('http://www.example.com')
+        window.location.href = 'http://www.example.com'
+        document.location.href = '/path'
+
 
     }
     render() {
