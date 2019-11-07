@@ -1,0 +1,18 @@
+Same mechanism in react ! 
+(did moutn and unmount as same!)
+
+return 
+<Router>
+  <Switch>
+    <Route CompA>
+    <Route CompB>
+  <Switch>
+<Router>
+// and
+
+
+return
+<div>
+{flag? <ComA>: <ComB>}
+<div>
+
