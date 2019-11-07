@@ -1,0 +1,37 @@
+-some note for react, client, front-end define, conceps, mechanism of route, render
+-route mechanism of react
++route is sub base url, domain,.. belong to server, backend side: api, url, json resp or html resp
+
+-Before, old time:
+
+frontend web is a design of each page html. And server side respone this for each route. 
+Js have ajax call, but not across route. client not able switch route.
+But, JS able to redirect to athoner route. its a mechanism of browser, when click a tag, or redirect() with JS
+web will swich to another route, with reload page annd request to server to resp content for that route.
+So, web have behavors:
++display page in route, actions js, js ajax call, fecht in this toute
++redirect to a anohter route, reload, reqest server for that route
+->server serving routes ! client not able to use route withthout not reload page!
+->concept of route only in server and implemetn in server!
+->browser use reps from server, and ruun for this route! client dont care about route!
+->redirect is mechianism of browser, action by browser, to request to server to abother router!
+-> JS can not do this directly !
+
+-Come from react!: (React Router, Navlink, Link)
+react is a server, have routes, and serving routes, eachpage in a route
+But, further more, the page resp from react server able to switch to another route, offline, not reload, request 
+resp from server!
+-> Thinking is this page serving from server have JS code, that can actions DOM route, and use content loaded 
+from this page prev. Switch offline to other route, can be use conntent loaded, or fecht from anoher server API, 
+to riches content.
+Using Link to, Navlink to do this!
+-> Difine Router in react server use for 2 slide, both client and server. 
++Server use to serving soure page for eachroute !
++Client single page reponsed from this server have soure, have enough conntent-soure, can be swithc to other route offline!
+-Define of routes:
+Router
+  Route A
+  Route B
+  Route C
+Router
+Use for both client and server !
