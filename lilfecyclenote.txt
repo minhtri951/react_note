@@ -1,0 +1,3 @@
+life cycle only apply when in singe app!
+when redirect or reload, fecht new source, and running begin again first! reset all cycle, state!
+(Conclustion: genneral, life clyle is manage by JS react ! when re-fecht srouce, it running first again! )
